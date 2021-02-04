@@ -1,0 +1,493 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 274}, {218, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "6184C947-B0C6-4E78-990D-A17261693370",
+          "corner_radius" : 5,
+          "frame" : "{{273, 187}, {200, 32}}",
+          "border_width" : 0,
+          "custom_attributes" : "{\n    'keyboard_type': ui.KEYBOARD_PHONE_PAD\n}",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "",
+          "text" : "",
+          "placeholder" : "Channel ID \/ User ID",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "channelID",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{397, 19}, {51, 17}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{325, 234}, {150, 32}}",
+          "uuid" : "A7841241-8B58-4453-B344-F343246BDFD7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Bot",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 44}, {383, 31}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "2DC9AB3D-18E0-4FD4-AAD3-B3705EA6FC23",
+          "secure" : false,
+          "frame" : "{{150, 104}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "text" : "",
+          "placeholder" : "Discord token",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "name" : "tokenField",
+          "font_size" : 12
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{456, 398}, {82, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 20,
+          "font_name" : "<System-Bold>",
+          "frame" : "{{325, 234}, {150, 32}}",
+          "uuid" : "A7841241-8B58-4453-B344-F343246BDFD7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Console",
+          "name" : "outputLabel",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{7, 95}, {218, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Show servers",
+          "action" : "show_servers",
+          "alignment" : "left",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_bold" : true,
+          "text" : "Download media",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {138, 30}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{325, 234}, {150, 32}}",
+          "uuid" : "A7841241-8B58-4453-B344-F343246BDFD7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Discord token",
+          "font_size" : 20,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{457, 438}, {287, 146}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "38D2EF75-BA72-4BD3-B621-D4A14FF3F56F",
+          "font_size" : 10,
+          "corner_radius" : 2,
+          "frame" : "{{300, 150}, {200, 200}}",
+          "border_color" : "RGBA(0.600000,0.666667,0.709804,1.000000)",
+          "editable" : false,
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "consoleView",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{233, 160}, {216, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Show channels",
+          "action" : "show_guild_channels",
+          "alpha" : 0.49999999999999989,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "showChannels",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{7, 160}, {218, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "6184C947-B0C6-4E78-990D-A17261693370",
+          "corner_radius" : 5,
+          "frame" : "{{273, 187}, {200, 32}}",
+          "border_width" : 0,
+          "custom_attributes" : "{\n    'keyboard_type': ui.KEYBOARD_PHONE_PAD\n}",
+          "title" : "Show servers",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "",
+          "placeholder" : "Guild ID",
+          "font_bold" : false,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "guildID",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 553}, {138, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{325, 234}, {150, 32}}",
+          "uuid" : "A7841241-8B58-4453-B344-F343246BDFD7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Download media",
+          "name" : "",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{397, 44}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{347, 187}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "isBot",
+          "uuid" : "9D00D4D9-D03A-42F8-BE3F-03E15EF31EE8"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 503}, {442, 33}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "flex" : "",
+          "segments" : "HtmlDark|HtmlLight|PlainText|CSV|JSON",
+          "frame" : "{{313, 188}, {120, 29}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "A2A4ADEC-8508-4399-B305-6A33ED70E008",
+          "class" : "SegmentedControl",
+          "value" : false,
+          "custom_attributes" : "",
+          "name" : "format"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{7, 465}, {73, 30}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{325, 234}, {150, 32}}",
+          "uuid" : "A7841241-8B58-4453-B344-F343246BDFD7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Format",
+          "font_size" : 20,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{233, 95}, {216, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Show private chats",
+          "action" : "show_pms",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{152, 553}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{347, 187}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "dlMedia",
+          "uuid" : "9D00D4D9-D03A-42F8-BE3F-03E15EF31EE8"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{232, 274}, {216, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Export channel\/chat",
+          "action" : "export_channel",
+          "alpha" : 0.5,
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "exportChannel",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{456, 44}, {288, 338}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "16D2827D-2FE2-4CA5-8D2F-C9FA1AC6830C",
+          "data_source_action" : "",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(0.137255,0.152941,0.164706,1.000000)",
+          "frame" : "{{234, 262}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "border_color" : "RGBA(0.600000,0.666667,0.709804,1.000000)",
+          "tint_color" : "RGBA(0.137255,0.152941,0.164706,1.000000)",
+          "border_width" : 2,
+          "data_source_move_enabled" : false,
+          "alpha" : 0.29999999999999988,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 12,
+          "row_height" : 20,
+          "class" : "TableView",
+          "name" : "table",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{456, 6}, {119, 30}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "tableLabel",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{325, 234}, {150, 32}}",
+          "uuid" : "A7841241-8B58-4453-B344-F343246BDFD7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 20,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 390}, {442, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Export all accessible channels",
+          "action" : "export_all_channels",
+          "alignment" : "left",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_bold" : false,
+          "text" : "Download media",
+          "font_name" : "<System>",
+          "alpha" : 1,
+          "class" : "Button",
+          "name" : "",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 209}, {442, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Export all server channels",
+          "action" : "export_guild_channels",
+          "alpha" : 0.5,
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "exportGuildChannels",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 325}, {442, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "856A29CC-3466-474F-A85A-2C40C6038507",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "border_color" : "RGBA(0.447059,0.537255,0.854902,1.000000)",
+          "border_width" : 4,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Export all private chats",
+          "action" : "export_pms",
+          "alignment" : "left",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_bold" : false,
+          "text" : "Download media",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "",
+          "font_size" : 18
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {750, 592}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(0.172549,0.184314,0.200000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
